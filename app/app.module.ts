@@ -7,7 +7,6 @@ import { PricyPipe } from './pricy.pipe';
 import { Description } from './description.component';
 
 
-
 @NgModule({
   imports: [
     BrowserModule,
@@ -17,7 +16,7 @@ import { Description } from './description.component';
     AppComponent,
     TenPints,
     PricyPipe,
-    Description,
+    Description
   ],
   bootstrap:    [ AppComponent ]
 })

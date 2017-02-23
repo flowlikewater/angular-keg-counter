@@ -1,7 +1,9 @@
 // A component has two halves: An annotation and a class definition.
 // App Component is my ROOT Component - responsible for holding all of our data (our models), and for loading child components.
 
-import { Component, Input,PipeTransform, Description } from '@angular/core';
+import { Component, Input, PipeTransform } from '@angular/core';
+import { Description } from './description.component';
+
 import { Tap } from './tap.model'
 
 @Component({
